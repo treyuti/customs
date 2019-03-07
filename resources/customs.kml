@@ -42,7 +42,7 @@
     <Folder>
       <name>CUSTOMS</name>
       <Placemark>
-        <name>Douane/Landelijk kantoor</name>
+        <name>Douane/Landelijk kantoor 1</name>
         <description>
 			<![CDATA[
 				AUT: HOGERE AUTORITEIT<br>
@@ -57,7 +57,7 @@
         </Point>
       </Placemark>
 	        <Placemark>
-        <name>Douane/Landelijk kantoor</name>
+        <name>Douane/Landelijk kantoor 2</name>
         <description>
 			<![CDATA[
 				id: NL000100<br>
@@ -78,7 +78,7 @@
         </Point>
       </Placemark>
 	        <Placemark>
-        <name>Douane/Landelijk kantoor</name>
+        <name>Douane/Landelijk kantoor 3</name>
         <description>
 			<![CDATA[
 				id: NL000100<br>
