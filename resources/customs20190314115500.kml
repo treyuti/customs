@@ -1,3 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Kml xmlns="http://www.opengis.net/kml/2.2">
-<document><styleMap><id>icon-1899-0288D1</id><pair><pair><styleUrl>#icon-1899-0288D1-normal</styleUrl><key>normal</key></pair><pair><styleUrl>#icon-1899-0288D1-highlight</styleUrl><key>highlight</key></pair></pair></styleMap><name></name><description></description><style><style><iconStyle><hotSpot><x>32</x><yunits>pixels</yunits><y>64</y><xunits>insetPixels</xunits></hotSpot><color>ffd18802</color><scale>1</scale><icon><href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></icon></iconStyle><labelStyle><scale>1</scale></labelStyle><id>icon-1899-0288D1-normal</id></style><style><iconStyle><hotSpot><x>32</x><yunits>pixels</yunits><y>64</y><xunits>insetPixels</xunits></hotSpot><color>ffd18802</color><scale>1</scale><icon><href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></icon></iconStyle><labelStyle><scale>1</scale></labelStyle><id>icon-1899-0288D1-highlight</id></style></style><folder><placemark><placemark><name>DE007756</name><description></description><styleUrl>#icon-1899-0288D1</styleUrl><point><coordinates>48.1403226,11.5333856</coordinates></point></placemark><placemark><name>FR006530</name><description></description><styleUrl>#icon-1899-0288D1</styleUrl><point><coordinates>4.9394516,-52.3157281</coordinates></point></placemark><placemark><name>ESD12200</name><description></description><styleUrl>#icon-1899-0288D1</styleUrl><point><coordinates>39.9508591,-0.0934186</coordinates></point></placemark><placemark><name>FI939990</name><description></description><styleUrl>#icon-1899-0288D1</styleUrl><point><coordinates>65.7989625,30.0984232</coordinates></point></placemark><placemark><name>ROCJ9700</name><description></description><styleUrl>#icon-1899-0288D1</styleUrl><point><coordinates>47.2013477,23.0532646</coordinates></point></placemark></placemark><name></name></folder></document></Kml>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <name></name>
+        <description></description>
+        <Style id="icon-1899-0288D1-normal">
+            <IconStyle>
+                <color>ffd18802</color>
+                <scale>1</scale>
+                <Icon>
+                    <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+                </Icon>
+                <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+            </IconStyle>
+            <LabelStyle>
+                <scale>1</scale>
+            </LabelStyle>            
+        </Style>
+        <Style id="icon-1899-0288D1-highlight">
+            <IconStyle>
+                <color>ffd18802</color>
+                <scale>1</scale>
+                <Icon>
+                    <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+                </Icon>
+                <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+            </IconStyle>
+            <LabelStyle>
+                <scale>1</scale>
+            </LabelStyle>            
+        </Style>
+        <StyleMap id="icon-1899-0288D1">
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+            </Pair>
+        </StyleMap>
+        <folder>
+            <name></name>
+            <Placemark>
+                <name>DE007756</name>
+                <description></description>
+                <styleUrl>#icon-1899-0288D1</styleUrl>
+                <Point>
+                    <coordinates>48.1403226,11.5333856</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>FR006530</name>
+                <description></description>
+                <styleUrl>#icon-1899-0288D1</styleUrl>
+                <Point>
+                    <coordinates>4.9394516,-52.3157281</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>ESD12200</name>
+                <description></description>
+                <styleUrl>#icon-1899-0288D1</styleUrl>
+                <Point>
+                    <coordinates>39.9508591,-0.0934186</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>FI939990</name>
+                <description></description>
+                <styleUrl>#icon-1899-0288D1</styleUrl>
+                <Point>
+                    <coordinates>65.7989625,30.0984232</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>ROCJ9700</name>
+                <description></description>
+                <styleUrl>#icon-1899-0288D1</styleUrl>
+                <Point>
+                    <coordinates>47.2013477,23.0532646</coordinates>
+                </Point>
+            </Placemark>
+        </folder>
+    </Document>
+</kml>
